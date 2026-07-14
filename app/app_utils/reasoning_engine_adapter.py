@@ -24,8 +24,23 @@ packaged Agent Engine.
 
 import inspect
 import json
+import os
+import google.auth
+from google.auth.credentials import AnonymousCredentials
 
 from fastapi import FastAPI, HTTPException, Request, encoders, responses
+
+# Mock google.auth.default to prevent DefaultCredentialsError when credentials are not configured locally
+google.auth.default = lambda *args, **kwargs: (AnonymousCredentials(), "dummy-project")
+
+# Set default Google Cloud project to prevent GoogleAuthError during local/test execution
+os.environ.setdefault("GOOGLE_CLOUD_PROJECT", "dummy-project")
+import vertexai
+try:
+    vertexai.init(project="dummy-project")
+except Exception:
+    pass
+
 from vertexai.agent_engines.templates.adk import AdkApp
 
 from app.app_utils import services
@@ -50,6 +65,12 @@ def attach_reasoning_engine_routes(app: FastAPI) -> None:
                 artifact_service_builder=services.get_artifact_service,
             )
             runtime.set_up()
+            
+            # Prevent AdkApp set_up from forcing Vertex AI backend when running locally/in tests
+            if os.getenv("INTEGRATION_TEST") == "TRUE" or os.getenv("GOOGLE_GENAI_USE_VERTEXAI") == "False":
+                os.environ["GOOGLE_GENAI_USE_VERTEXAI"] = "False"
+                os.environ["GOOGLE_GENAI_USE_ENTERPRISE"] = "False"
+                
             operations = runtime.register_operations()
             streaming_methods = set(operations.get("stream", [])) | set(
                 operations.get("async_stream", [])

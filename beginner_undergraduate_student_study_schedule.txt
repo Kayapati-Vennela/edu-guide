@@ -1,0 +1,167 @@
+STUDY SCHEDULE FOR: Beginner Undergraduate Student
+LOGGED ON: 2026-07-04 22:58:12
+========================================
+
+
+Here is a structured 6-week study roadmap for a beginner undergraduate student to learn Java and Data Structures & Algorithms (DSA) from scratch, starting from **Monday, July 06, 2026**.
+
+**Student Name:** [Please insert student's name]
+
+---
+
+### **6-Week Java & DSA Study Schedule**
+
+**Weekly Commitment:**
+*   **Weekdays (Monday - Friday):** 2 hours each evening (6:00 PM - 8:00 PM)
+*   **Saturdays:** 5 hours (flexible timing)
+*   **Sundays:** 0 hours (Rest and Recovery Day)
+
+---
+
+#### **Week 1: Java Basics - Introduction to Programming**
+**Goal:** Understand fundamental Java syntax, variables, data types, operators, and control flow.
+*   **Topics:** Introduction to Java, JDK/JRE/JVM, "Hello World!", Variables, Data Types, Operators, Conditional Statements (if/else, switch), User Input (Scanner).
+
+    *   **Monday (July 06, 2026):**
+        *   6:00 PM - 7:00 PM: Introduction to Java, Environment Setup, "Hello World!".
+        *   7:00 PM - 8:00 PM: Variables and Data Types.
+    *   **Tuesday (July 07, 2026):**
+        *   6:00 PM - 7:00 PM: Operators in Java (Arithmetic, Relational, Logical).
+        *   7:00 PM - 8:00 PM: Practice: Simple calculations, type conversions.
+    *   **Wednesday (July 08, 2026):**
+        *   6:00 PM - 7:00 PM: Conditional Statements (if-else).
+        *   7:00 PM - 8:00 PM: Practice: Age checker, even/odd number.
+    *   **Thursday (July 09, 2026):**
+        *   6:00 PM - 7:00 PM: Conditional Statements (switch-case).
+        *   7:00 PM - 8:00 PM: Practice: Simple menu-driven program.
+    *   **Friday (July 10, 2026):**
+        *   6:00 PM - 7:00 PM: User Input with `Scanner` class.
+        *   7:00 PM - 8:00 PM: Practice: Building a simple calculator using `Scanner` and conditionals.
+    *   **Saturday (July 11, 2026) - 5 Hours (Flexible):**
+        *   Review Week 1 concepts (1.5 hrs).
+        *   Solve 3-5 beginner-level coding challenges (e.g., sum of N numbers, largest of three numbers) (2 hrs).
+        *   Explore free online resources for Java basics (e.g., Codecademy, freeCodeCamp's Java course) (1.5 hrs).
+
+#### **Week 2: Java Fundamentals - Loops and Methods**
+**Goal:** Master iterative structures, understand how to create and use methods, and grasp basic OOP concepts.
+*   **Topics:** Loops (for, while, do-while), Arrays (one-dimensional), Methods (declaration, parameters, return types), Introduction to OOP (Classes and Objects), Constructors.
+
+    *   **Monday (July 13, 2026):**
+        *   6:00 PM - 7:00 PM: For-loops and While-loops.
+        *   7:00 PM - 8:00 PM: Practice: Factorial, sum of numbers, countdown.
+    *   **Tuesday (July 14, 2026):
+        *   6:00 PM - 7:00 PM: Do-while loops and nested loops.
+        *   7:00 PM - 8:00 PM: Practice: Pattern printing (stars, numbers).
+    *   **Wednesday (July 15, 2026):**
+        *   6:00 PM - 7:00 PM: Introduction to Arrays.
+        *   7:00 PM - 8:00 PM: Practice: Array initialization, traversal, finding min/max in array.
+    *   **Thursday (July 16, 2026):**
+        *   6:00 PM - 7:00 PM: Methods - defining, calling, parameters, return types.
+        *   7:00 PM - 8:00 PM: Practice: Refactoring previous code into methods.
+    *   **Friday (July 17, 2026):**
+        *   6:00 PM - 7:00 PM: Introduction to Classes and Objects.
+        *   7:00 PM - 8:00 PM: Practice: Create a simple `Car` or `Dog` class with attributes (e.g., `name`, `age`).
+    *   **Saturday (July 18, 2026) - 5 Hours (Flexible):**
+        *   Review Week 2 concepts (1.5 hrs).
+        *   Practice: Build a simple "Student Management" system using classes, objects, and arrays (2.5 hrs).
+        *   Solve 3-5 coding challenges on loops, methods, and basic arrays (1 hr).
+
+#### **Week 3: Java Fundamentals - Advanced OOP & Exception Handling**
+**Goal:** Deepen understanding of OOP principles, handle errors gracefully, and perform basic file operations.
+*   **Topics:** Encapsulation, Inheritance, Polymorphism, Abstraction (Interfaces, Abstract Classes), `this` & `super` keywords, Packages & Access Modifiers, Exception Handling (try-catch-finally), Basic File I/O.
+
+    *   **Monday (July 20, 2026):**
+        *   6:00 PM - 7:00 PM: Encapsulation (Getters/Setters).
+        *   7:00 PM - 8:00 PM: Practice: Refactor `Car`/`Dog` class with encapsulation.
+    *   **Tuesday (July 21, 2026):**
+        *   6:00 PM - 7:00 PM: Inheritance.
+        *   7:00 PM - 8:00 PM: Practice: Create a `Vehicle` class and `Car`/`Motorcycle` subclasses.
+    *   **Wednesday (July 22, 2026):**
+        *   6:00 PM - 7:00 PM: Polymorphism (Method Overriding, Overloading).
+        *   7:00 PM - 8:00 PM: Practice: Demonstrate polymorphism with an `Animal` class and subclasses making different sounds.
+    *   **Thursday (July 23, 2026):**
+        *   6:00 PM - 7:00 PM: Abstraction (Abstract Classes and Interfaces).
+        *   7:00 PM - 8:00 PM: Practice: Design an `Shape` interface with an `area()` method, and implement it in `Circle` and `Rectangle` classes.
+    *   **Friday (July 24, 2026):**
+        *   6:00 PM - 7:00 PM: Exception Handling (try-catch-finally).
+        *   7:00 PM - 8:00 PM: Practice: Handle `DivideByZeroException`, `InputMismatchException`.
+    *   **Saturday (July 25, 2026) - 5 Hours (Flexible):**
+        *   Review all Java OOP concepts (2 hrs).
+        *   Mini-project: Enhance the "Student Management" system to use inheritance and handle exceptions (2 hrs).
+        *   Solve 3-5 intermediate coding challenges (1 hr).
+
+#### **Week 4: Data Structures - Linear Structures**
+**Goal:** Understand and implement fundamental linear data structures.
+*   **Topics:** Arrays vs. ArrayLists, Time and Space Complexity (Big O notation - introduction), Linked Lists (Singly Linked List: insertion, deletion, traversal), Doubly Linked Lists (basic operations).
+
+    *   **Monday (July 27, 2026):**
+        *   6:00 PM - 7:00 PM: Introduction to Data Structures, Big O Notation (basic concepts).
+        *   7:00 PM - 8:00 PM: Arrays vs. ArrayLists - when to use which, basic operations.
+    *   **Tuesday (July 28, 2026):**
+        *   6:00 PM - 7:00 PM: Implement Singly Linked List (Node class, addFirst, addLast).
+        *   7:00 PM - 8:00 PM: Practice: Implement `display()` and `size()` methods for SLL.
+    *   **Wednesday (July 29, 2026):**
+        *   6:00 PM - 7:00 PM: Singly Linked List (deleteFirst, deleteLast, deleteAtIndex).
+        *   7:00 PM - 8:00 PM: Practice: Implement `search()` for SLL.
+    *   **Thursday (July 30, 2026):**
+        *   6:00 PM - 7:00 PM: Introduction to Doubly Linked List.
+        *   7:00 PM - 8:00 PM: Practice: Implement add and delete for DLL (basic operations).
+    *   **Friday (July 31, 2026):**
+        *   6:00 PM - 7:00 PM: Comparing performance of Arrays, ArrayLists, and Linked Lists.
+        *   7:00 PM - 8:00 PM: Practice: Solve problems using `ArrayList` (e.g., removing duplicates).
+    *   **Saturday (August 01, 2026) - 5 Hours (Flexible):**
+        *   Review Week 4 concepts (1.5 hrs).
+        *   Practice: Implement all linked list operations from scratch without referring to solutions (2.5 hrs).
+        *   Solve 3-5 LeetCode easy/medium problems involving arrays and linked lists (1 hr).
+
+#### **Week 5: Data Structures - Stacks, Queues, and Hash Structures**
+**Goal:** Understand and implement LIFO and FIFO structures, and appreciate hash-based structures.
+*   **Topics:** Stacks (LIFO: push, pop, peek), Queues (FIFO: enqueue, dequeue, peek), Implementation of Stacks and Queues (using Arrays/LinkedLists), HashMaps and HashSets (basic operations, properties, use cases).
+
+    *   **Monday (August 03, 2026):**
+        *   6:00 PM - 7:00 PM: Introduction to Stacks.
+        *   7:00 PM - 8:00 PM: Practice: Implement a Stack using an `ArrayList`.
+    *   **Tuesday (August 04, 2026):**
+        *   6:00 PM - 7:00 PM: Applications of Stacks (Parentheses matching algorithm).
+        *   7:00 PM - 8:00 PM: Practice: Reverse a string using a Stack.
+    *   **Wednesday (August 05, 2026):**
+        *   6:00 PM - 7:00 PM: Introduction to Queues.
+        *   7:00 PM - 8:00 PM: Practice: Implement a Queue using a `LinkedList`.
+    *   **Thursday (August 06, 2026):**
+        *   6:00 PM - 7:00 PM: Applications of Queues (brief introduction to BFS).
+        *   7:00 PM - 8:00 PM: Practice: Simulate a simple printer queue.
+    *   **Friday (August 07, 2026):**
+        *   6:00 PM - 7:00 PM: Introduction to HashMaps and HashSets.
+        *   7:00 PM - 8:00 PM: Practice: Word frequency counter using HashMap.
+    *   **Saturday (August 08, 2026) - 5 Hours (Flexible):**
+        *   Review Week 5 concepts (1.5 hrs).
+        *   Practice: Solve problems like "Valid Parentheses" (Stack), "First Unique Character" (HashMap) (2 hrs).
+        *   Explore Java's built-in `Stack`, `Queue` (using `LinkedList`), `HashMap`, `HashSet` classes (1.5 hrs).
+
+#### **Week 6: Introduction to Algorithms & Recursion**
+**Goal:** Get acquainted with fundamental algorithmic techniques and recursive problem-solving.
+*   **Topics:** Sorting Algorithms (Bubble Sort, Selection Sort, Insertion Sort - conceptually and implementation), Searching Algorithms (Linear Search, Binary Search - conceptually and implementation), Introduction to Recursion (Base case, Recursive step), Recursive examples (Factorial, Fibonacci).
+
+    *   **Monday (August 10, 2026):**
+        *   6:00 PM - 7:00 PM: Linear Search and Binary Search (implement).
+        *   7:00 PM - 8:00 PM: Practice: Search in sorted and unsorted arrays.
+    *   **Tuesday (August 11, 2026):**
+        *   6:00 PM - 7:00 PM: Bubble Sort (implement).
+        *   7:00 PM - 8:00 PM: Practice: Sort an array of integers.
+    *   **Wednesday (August 12, 2026):**
+        *   6:00 PM - 7:00 PM: Selection Sort (implement).
+        *   7:00 PM - 8:00 PM: Practice: Sort an array of strings.
+    *   **Thursday (August 13, 2026):**
+        *   6:00 PM - 7:00 PM: Introduction to Recursion.
+        *   7:00 PM - 8:00 PM: Practice: Factorial and Fibonacci series (recursive implementation).
+    *   **Friday (August 14, 2026):**
+        *   6:00 PM - 7:00 PM: More recursive examples (e.g., sum of array elements recursively).
+        *   7:00 PM - 8:00 PM: Practice: Solving small problems recursively.
+    *   **Saturday (August 15, 2026) - 5 Hours (Flexible):**
+        *   Comprehensive review of all 6 weeks of Java and DSA concepts (2.5 hrs).
+        *   Solve a mix of easy/medium problems from platforms like LeetCode or HackerRank covering all topics learned (2 hrs).
+        *   Plan next steps: more advanced DSA topics (trees, graphs), personal project work, or competitive programming introduction (0.5 hrs).
+
+---
+
+This schedule aims to provide a solid foundation without causing burnout. Remember to take short breaks during study sessions and adjust the schedule if needed based on your learning pace. Good luck!

@@ -45,7 +45,10 @@ except Exception as e:
     logging.warning(f"Failed to setup Agent Engine telemetry: {e}")
 
 try:
-    _, project_id = google.auth.default()
+    credentials, project_id = google.auth.default()
+    from google.auth.credentials import AnonymousCredentials
+    if isinstance(credentials, AnonymousCredentials) or os.getenv("INTEGRATION_TEST") == "TRUE":
+        raise ValueError("Anonymous credentials or integration test mode")
     logging_client = google_cloud_logging.Client()
     logger = logging_client.logger(__name__)
 except Exception as e:
