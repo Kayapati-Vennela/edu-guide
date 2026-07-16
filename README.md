@@ -154,7 +154,7 @@ A narration script for demonstrations is available in the [DEMO_SCRIPT.txt](file
    git add .
    git commit -m "Initial commit: edu-guide ADK agent"
    git branch -M main
-   git remote add origin https://github.com/<your-username>/edu-guide.git
+   git remote add origin https://github.com/Kayapati-Vennela/edu-guide.git
    git push -u origin main
    ```
 

@@ -27,7 +27,9 @@ async def main():
             print(f"  Actions: {event.actions}")
             
     # Get updated session
-    updated_session = await session_service.get_session(session.id)
+    updated_session = await session_service.get_session(
+        app_name="test", user_id="test_user", session_id=session.id
+    )
     print(f"Final State: {updated_session.state}")
 
 if __name__ == "__main__":
